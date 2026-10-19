@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.playwright/
+test-results/
+*.local
+
+*.tsbuildinfo
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+
+# Generated verification output and local planning notes
+coverage/
+playwright-report/
+blob-report/
+docs/superpowers/
+.idea/
+.vscode/
