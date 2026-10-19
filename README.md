@@ -1,8 +1,8 @@
-# FORMA MEBEL
+# ОСНОВА
 
 Сайт мебельной фабрики с интерактивным **2D-конфигуратором кухни**. Пользователь задаёт размеры, размещает модули, выбирает материалы и сразу видит стоимость проекта.
 
-![Визуальное направление FORMA MEBEL](public/images/hero.jpg)
+![Визуальное направление ОСНОВА](public/images/hero.jpg)
 
 Портфолио-проект на React и TypeScript: тёплая минималистичная главная, фотографии коллекций, SVG-чертёж кухни и формы записи на замер.
 
@@ -55,16 +55,14 @@ GitHub Actions выполняет установку по lock-файлу, мо�
 
 ## Публикация исходников на GitHub
 
-Создайте пустой репозиторий, например `forma-mebel`, без автоматически добавляемого README. В корне проекта:
+Исходники: [hertzxq/Furniture-factory](https://github.com/hertzxq/Furniture-factory).
 
 ```sh
-git add .
-git commit -m "Initial commit: FORMA MEBEL website and kitchen planner"
-git remote add origin https://github.com/YOUR_USERNAME/forma-mebel.git
-git push -u origin main
+git clone https://github.com/hertzxq/Furniture-factory.git
+cd Furniture-factory
+npm ci
+npm run dev
 ```
-
-Замените `YOUR_USERNAME` своим логином. Для первого коммита Git должны быть заданы ваши `user.name` и `user.email`.
 
 ## Развёртывание сайта
 

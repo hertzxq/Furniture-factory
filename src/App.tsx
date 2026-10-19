@@ -185,13 +185,13 @@ export default function App() {
         <a
           className="logo"
           href="/"
-          aria-label="FORMA MEBEL — на главную"
+          aria-label="ОСНОВА — на главную"
           onClick={(ev) => {
             ev.preventDefault();
             navigate(false);
           }}
         >
-          FORMA<span>MEBEL</span>
+          ОСНОВА<span>МЕБЕЛЬ</span>
         </a>
         <nav className="desktop-nav" aria-label="Основная навигация">
           {navLinks}
@@ -227,7 +227,7 @@ export default function App() {
       <Suspense
         fallback={
           <main className="loading-page">
-            <span className="eyebrow">FORMA MEBEL</span>
+            <span className="eyebrow">ОСНОВА</span>
             <h1>Открываем ваш проект…</h1>
           </main>
         }
@@ -269,7 +269,7 @@ export default function App() {
           />
         )}
       </Suspense>
-      <Dialog open={menu} onOpenChange={setMenu} title="FORMA MEBEL">
+      <Dialog open={menu} onOpenChange={setMenu} title="ОСНОВА">
         <nav className="mobile-navigation" aria-label="Мобильная навигация">
           {navLinks}
           <Button onClick={() => navigate(true)}>

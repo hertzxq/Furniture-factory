@@ -250,7 +250,7 @@ export function Landing({
                 <i />
                 <i />
               </span>
-              <span>ВАША КУХНЯ · FORMA</span>
+              <span>ВАША КУХНЯ · ОСНОВА</span>
               <Ruler size={13} />
             </div>
             <div className="preview-title">
@@ -458,7 +458,7 @@ export function Landing({
         </div>
       </RevealSection>
       <RevealSection className="closing-cta">
-        <span className="eyebrow">ВАШ ДОМ. ВАШ ХАРАКТЕР. ВАША FORMA.</span>
+        <span className="eyebrow">ОСНОВА ВАШЕГО ДОМА.</span>
         <h2>
           Давайте создадим <em>вашу кухню.</em>
         </h2>
@@ -470,10 +470,10 @@ export function Landing({
         <div className="footer-main">
           <div>
             <a className="logo footer-logo" href="#home">
-              FORMA<span>MEBEL</span>
+              ОСНОВА<span>МЕБЕЛЬ</span>
             </a>
             <p>
-              Мебель для жизни.
+              Основа уютного дома.
               <br />
               Пространство для вас.
             </p>
@@ -498,7 +498,7 @@ export function Landing({
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} FORMA MEBEL</span>
+          <span>© {new Date().getFullYear()} ОСНОВА</span>
           <a href="#home">
             Наверх <ArrowUpRight size={13} />
           </a>
@@ -509,7 +509,7 @@ export function Landing({
         onOpenChange={(v) => {
           if (!v) setGallery(null);
         }}
-        title="Интерьеры FORMA"
+        title="Интерьеры ОСНОВА"
         description="Интерьеры, которые помогают представить кухню дома."
         wide
       >
